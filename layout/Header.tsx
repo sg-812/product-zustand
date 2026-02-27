@@ -7,7 +7,7 @@ const Header = () => {
         <nav className='flex justify-between items-center'>
           <div className="navbar_brand">
             <span className='text-3xl text-amber-300 text-shadow-amber-50 text-shadow-md'>
-              <Link href="/">CRUD</Link>
+              <Link href="/">ZUSTAND</Link>
             </span>
           </div>
           <div className="navbar_items">

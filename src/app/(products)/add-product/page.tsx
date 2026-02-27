@@ -33,12 +33,7 @@ const AddProduct = () => {
         fetchProduct();
     }, []);
 
-    // if (isLoading) {
-    //     return <div className="p-4 text-center">Loading products...</div>;
-    // }
-    // if (error) {
-    //     return <div className="p-4 text-red-500 text-center">Error: {error}</div>;
-    // }
+  
     return (
         <div>
             <div className="conatiner">
@@ -54,7 +49,9 @@ const AddProduct = () => {
                             <input type="submit" className="py-2 px-4 bg-amber-200 rounded-xl border-2 border-amber-500  hover:bg-amber-500 hover:text-white" value="Add Product" />
                         </form>
                     </div>
+                 
                     <div className='flex-1 p-10 bg-yellow-100 '>
+                           {/* <button onClick={fetchProduct}>FetchProducts</button> */}
                         {isLoading ?
                             <p>Products loading</p> :
                             <>
